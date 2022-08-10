@@ -114,12 +114,32 @@ const nuggets = 2;
 if (hamburger || cola || fries === 3 || nuggets) {
     console.log('Done!')
 }*/
-let hamburger;
+/*let hamburger;
 const fries = NaN;
 const cola = 0;
 const nuggets = 2;
 
 if (hamburger && cola || fries === 3 && nuggets) {
     console.log('Done!')
-}
+}*/
 
+/*
+let num = 50;
+/!*while (num <= 55){
+    console.log(num);
+    num++
+}*!/
+
+/!*
+do {
+    console.log(num);
+    num++
+} while (num <= 55);*!/
+*/
+let num = 50;
+for (let i = 1; i <= 10; i++){
+    if(i === 6){
+        continue;
+    }
+    console.log(i)
+}
