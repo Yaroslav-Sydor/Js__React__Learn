@@ -51,3 +51,75 @@ switch (num){
         console.log('good task')
         break;
 }*/
+/*
+const humburger = 5;
+const fries = null;
+if ( humburger && fries ){
+    console.log('yes');
+}
+
+console.log((humburger && fries));
+*/
+
+/*
+false {
+        '',
+        null,
+        undefined,
+        0,
+        NaN
+}*/
+/*
+const humburger = 3;
+const fries = 3;
+const colla = 0;
+const nuggits = 2;
+*/
+
+/*console.log(humburger === 3 && colla && fries);
+console.log(1 && 0);
+console.log(1 && 5);
+console.log(null && 5);
+console.log(0 && 'gbfbnfnfn');*/
+/*
+if ( humburger === 3 && colla === 2 || fries ===3 && nuggits ){
+    console.log('yes');
+}else {
+    console.log('go averyver');
+};
+console.log(humburger === 3 && (colla === 2 || fries === 3) && nuggits);
+console.log(!0);
+*/
+
+/*
+let jonReport, maryReport, samReport, alexReport = 'done';
+console.log(jonReport || maryReport || samReport || alexReport );*/
+/*
+console.log( NaN || 2 || undefined );*/
+/*
+console.log( NaN && 2 && undefined );*/
+/*console.log( 1 && 2 && 3 );*/
+/*console.log( !1 && 2 || !3 );*/
+/*console.log( 25 || null && !3 );*/
+/*console.log( NaN || null || !3 || undefined || 5);*/
+/*console.log( NaN || null && !3 && undefined || 5);*/
+/*
+console.log( 5 === 5 && 3 > 1 || 5);*/
+
+/*let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger || cola || fries === 3 || nuggets) {
+    console.log('Done!')
+}*/
+let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger && cola || fries === 3 && nuggets) {
+    console.log('Done!')
+}
+
