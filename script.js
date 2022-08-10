@@ -136,6 +136,7 @@ do {
     num++
 } while (num <= 55);*!/
 */
+/*
 let num = 50;
 for (let i = 1; i <= 10; i++){
     if(i === 6){
@@ -143,3 +144,46 @@ for (let i = 1; i <= 10; i++){
     }
     console.log(i)
 }
+*/
+/*
+for(let i = 0; i < 5; i++){
+    console.log(i);
+    for(let j = 0; j < 6; j++) {
+        console.log(j);
+    }
+}*/
+/*
+let a = '';
+const length = 7;
+for (let i = 1; i < length; i++){
+    for (let j = 0; j < i; i++){
+      a += '*';
+    }
+    a += '/n';
+}
+console.log(a );
+*/
+/*first: for(let i = 0; i < 5; i++) {
+    console.log(`first lavel ${i}`);
+    for (let j = 0; j < 6; j++) {
+        console.log(`second lavel ${j}`);
+    }
+    for (let k = 0; k < 6; k++) {
+        if(k === 3) break first;
+        console.log(`second lavel ${k}`);
+    }
+}*/
+let a = '';
+for (let i = 1; i < 10; i++){
+    /*for (let j = 0; j < a; i++){
+    }*/
+    console.log(a += '*');
+};
+let b = '';
+for (let i = 13; i > 1; i--){
+    b = '';
+    for (let j = 1; j < i; j++){
+        b += '*';
+    }
+    console.log(b);
+};
